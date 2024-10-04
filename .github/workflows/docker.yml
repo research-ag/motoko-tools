@@ -27,6 +27,6 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/motoko-tools:${{ github.ref#refs/tags/ }}
+            ghcr.io/${{ github.repository }}/motoko-tools:${{ github.ref_name }}
           cache-from: type=registry,ref=ghcr.io/${{ github.repository }}/motoko-tools:cache
           cache-to: type=inline
