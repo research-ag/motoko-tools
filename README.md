@@ -2,7 +2,7 @@
 
 This repository provides a Docker image containing essential tools for developing and building projects using the Motoko programming language on the Internet Computer. This image is optimized for creating reproducible builds and is available in multiple versions based on the Motoko compiler version.
 
-## Image Overview
+## Image overview
 
 The Docker image is built on node:22.7.0-bookworm-slim and includes the following components:
 
@@ -10,7 +10,7 @@ The Docker image is built on node:22.7.0-bookworm-slim and includes the followin
 - [mops](https://github.com/ZenVoich/mops)
 - [ic-wasm](https://github.com/dfinity/ic-wasm)
 
-## Available Versions
+## Available versions
 
 | Tag                  | Versions                           |
 |----------------------|------------------------------------|
