@@ -3,7 +3,7 @@ name: 🚀 Build and publish Docker image
 on:
   push:
     tags:
-      - 'mops-*'
+      - 'moc-*'
       - 'latest'
 
 jobs:
