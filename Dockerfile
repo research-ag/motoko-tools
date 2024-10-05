@@ -1,8 +1,8 @@
 FROM --platform=linux/amd64 node:22.7.0-bookworm-slim
 
 ENV MOC_VERSION=0.13.0
-ENV MOPS_VERSION=0.45.3
-ENV IC_WASM_VERSION=0.8.1
+ENV MOPS_VERSION=1.0.1
+ENV IC_WASM_VERSION=0.8.6
 
 RUN apt-get -yq update
 RUN apt-get -yqq install --no-install-recommends ca-certificates curl tar
