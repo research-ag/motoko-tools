@@ -15,7 +15,7 @@ The Docker image is built on node:22.7.0-bookworm-slim and includes the followin
 To pull and use the image for your project, run the following command, replacing `<version>` with the desired version:
 
 ```bash
-docker pull ghcr.io/research-ag/docker-motoko-tools/motoko-tools:<version>
+docker pull ghcr.io/research-ag/motoko-tools/motoko-tools:<version>
 ```
 
 ## Use as a base image
@@ -23,7 +23,7 @@ docker pull ghcr.io/research-ag/docker-motoko-tools/motoko-tools:<version>
 Alternatively, you can use the image as a base for your own Dockerfile, which is useful for setting up reproducible builds or CI/CD pipelines. Add the following line to your Dockerfile, replacing `<version>` with the desired version:
 
 ```
-FROM ghcr.io/research-ag/docker-motoko-tools/motoko-tools:<version>
+FROM ghcr.io/research-ag/motoko-tools/motoko-tools:<version>
 ```
 
 ## Available versions
