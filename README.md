@@ -30,8 +30,9 @@ FROM ghcr.io/research-ag/docker-motoko-tools/motoko-tools:<version>
 
 | Tag                  | Versions                           |
 |----------------------|------------------------------------|
-| `moc-0.13.0`         | moc: 0.13.0, mops: 0.45.3, ic-wasm: 0.8.1 |
-| `moc-0.12.0`         | moc: 0.12.0, mops: 0.45.3, ic-wasm: 0.8.1 |
-| `moc-0.11.3`         | moc: 0.11.3, mops: 0.45.3, ic-wasm: 0.8.1 |
-| `moc-0.11.2`         | moc: 0.11.2, mops: 0.45.3, ic-wasm: 0.8.1 |
-| `moc-0.11.1`         | moc: 0.11.1, mops: 0.45.3, ic-wasm: 0.8.1 |
+| `moc-0.13.0`         | moc: 0.13.0, mops: 1.0.1, ic-wasm: 0.8.6 |
+| `moc-0.12.0`         | moc: 0.12.0, mops: 1.0.1, ic-wasm: 0.8.6 |
+| `moc-0.11.3`         | moc: 0.11.3, mops: 1.0.1, ic-wasm: 0.8.6 |
+| `moc-0.11.2`         | moc: 0.11.2, mops: 1.0.1, ic-wasm: 0.8.6 |
+| `moc-0.11.1`         | moc: 0.11.1, mops: 1.0.1, ic-wasm: 0.8.6 |
+| `moc-0.11.0`         | moc: 0.11.1, mops: 1.0.1, ic-wasm: 0.8.6 |
