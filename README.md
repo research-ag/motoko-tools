@@ -12,15 +12,21 @@ The Docker image is built on node:22.7.0-bookworm-slim and includes the followin
 
 ## Pull the image
 
-To pull and use the image for your project, run the following command, replacing `<version>` with the desired version:
+To pull and use the image for your project, run the following command, replacing `<version>` with the tag of the desired version:
 
 ```bash
 docker pull ghcr.io/research-ag/motoko-tools/motoko-tools:<version>
 ```
 
+For example,
+
+```bash
+docker pull ghcr.io/research-ag/motoko-tools/motoko-tools:moc-0.13.2
+```
+
 ## Use as a base image
 
-Alternatively, you can use the image as a base for your own Dockerfile, which is useful for setting up reproducible builds or CI/CD pipelines. Add the following line to your Dockerfile, replacing `<version>` with the desired version:
+Alternatively, you can use the image as a base for your own Dockerfile, which is useful for setting up reproducible builds or CI/CD pipelines. Add the following line to your Dockerfile, replacing `<version>` with the tag of the desired version:
 
 ```
 FROM ghcr.io/research-ag/motoko-tools/motoko-tools:<version>
@@ -30,9 +36,12 @@ FROM ghcr.io/research-ag/motoko-tools/motoko-tools:<version>
 
 | Tag                  | Versions                           |
 |----------------------|------------------------------------|
+| `moc-0.13.2`         | moc: 0.13.2, mops: 1.1.1, ic-wasm: 0.9.0 |
+| `moc-0.13.1`         | moc: 0.13.1, mops: 1.1.1, ic-wasm: 0.9.0 |
 | `moc-0.13.0`         | moc: 0.13.0, mops: 1.0.1, ic-wasm: 0.8.6 |
 | `moc-0.12.0`         | moc: 0.12.0, mops: 1.0.1, ic-wasm: 0.8.6 |
 | `moc-0.11.3`         | moc: 0.11.3, mops: 1.0.1, ic-wasm: 0.8.6 |
 | `moc-0.11.2`         | moc: 0.11.2, mops: 1.0.1, ic-wasm: 0.8.6 |
 | `moc-0.11.1`         | moc: 0.11.1, mops: 1.0.1, ic-wasm: 0.8.6 |
 | `moc-0.11.0`         | moc: 0.11.1, mops: 1.0.1, ic-wasm: 0.8.6 |
+
