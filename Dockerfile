@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 node:22.7.0-bookworm-slim
 
-ENV MOC_VERSION=0.13.1
+ENV MOC_VERSION=0.13.2
 ENV MOPS_VERSION=1.1.1
 ENV IC_WASM_VERSION=0.9.0
 
