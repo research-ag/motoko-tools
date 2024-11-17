@@ -1,12 +1,13 @@
 FROM --platform=linux/amd64 node:22.7.0-bookworm-slim
 
-ENV MOC_VERSION=0.13.2
+ENV MOC_VERSION=0.13.3
 ENV MOPS_VERSION=1.1.1
 ENV IC_WASM_VERSION=0.9.0
 
-RUN apt-get -yq update
-RUN apt-get -yqq install --no-install-recommends ca-certificates curl tar
-RUN apt-get autoremove && apt-get clean
+RUN apt-get -yq update &&\
+  apt-get -yqq install --no-install-recommends ca-certificates curl tar &&\
+  apt-get autoremove &&\
+  apt-get clean
 
 # Install mops
 RUN npm i -g ic-mops@${MOPS_VERSION}
