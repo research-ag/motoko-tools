@@ -21,7 +21,7 @@ docker pull ghcr.io/research-ag/motoko-tools/motoko-tools:<version>
 For example,
 
 ```bash
-docker pull ghcr.io/research-ag/motoko-tools/motoko-tools:moc-0.13.2
+docker pull ghcr.io/research-ag/motoko-tools/motoko-tools:moc-0.13.3
 ```
 
 ## Use as a base image
@@ -36,6 +36,7 @@ FROM ghcr.io/research-ag/motoko-tools/motoko-tools:<version>
 
 | Tag                  | Versions                           |
 |----------------------|------------------------------------|
+| `moc-0.13.3`         | moc: 0.13.3, mops: 1.1.1, ic-wasm: 0.9.0 |
 | `moc-0.13.2`         | moc: 0.13.2, mops: 1.1.1, ic-wasm: 0.9.0 |
 | `moc-0.13.1`         | moc: 0.13.1, mops: 1.1.1, ic-wasm: 0.9.0 |
 | `moc-0.13.0`         | moc: 0.13.0, mops: 1.0.1, ic-wasm: 0.8.6 |
